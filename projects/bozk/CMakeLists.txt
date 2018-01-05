@@ -19,5 +19,6 @@ include(${PRJ_DIR}/components/tools/ext-build/cmake/boz-build.cmake)
 include(tools.cmake)
 
 BOZ_COMPS_FIND_ALL("${PRJ_DIR}/components/bozk/intf")
+BOZ_COMPS_FIND_ALL("${PRJ_DIR}/components/bozk/misc")
 # BOZ_COMPS_FIND_ALL("${PRJ_DIR}/components/bozk/internal")
 
